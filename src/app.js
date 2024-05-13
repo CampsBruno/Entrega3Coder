@@ -22,6 +22,7 @@ app.get("/products", async (req, res) => {
 });
 
 
+
 // Obtengo producto por ID
 app.get("/products/:pid", async (req, res) => {
   try {
